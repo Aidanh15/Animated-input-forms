@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Input Forms Test</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <h1>Sample Animated Input Forms</h1>
+
+
+        <div class="form">
+            <!--- <div class="name-section"></div> -->
+            <input type="text" name="name" autocomplete="off" required>
+            <label for="name" class="label-name">
+                <span class="content-name">Name</span>
+            </label>
+        </div>
+
+        <div class="form">
+                <!--"email-section" -->
+                <input type="text" name="Email" autocomplete="off" required>
+                <label for="name" class="label-name">
+                    <span class="content-name">Email</span>
+                </label>
+            </div>
+
+                    <div class="form">
+            <!--- <div class="name-section"></div> -->
+            <input type="text" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" name="dob" autocomplete="off" required>
+            <label for="name" class="label-name">
+                <span class="content-name">DOB(yyyy-mm-dd)</span>
+            </label>
+        </div>
+
+        <div class="form">
+                <!--- <div class="name-section"></div> -->
+                <input type="tel" name="StudentID" autocomplete="off" required>
+                <label for="name" class="label-name">
+                    <span class="content-name">Student ID</span>
+                </label>
+            </div>
+            
+        <button buttonID = "submit" class="button" align="right">submit</button>
+    </body>
+</html>
